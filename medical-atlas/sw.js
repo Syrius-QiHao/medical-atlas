@@ -1,8 +1,8 @@
 'use strict';
-const NAME='wmu-site-medical-atlas-87be72ec5ef08f17';
-const PREFIX='wmu-site-medical-atlas-';
+const NAME='wmu-site-atlas-15b30ea2d46b';
+const PREFIX='wmu-site-atlas-';
 const BASE=new URL(self.registration.scope);
-const FILES=['./','index.html','styles.css?v=20261125-family1','site-links.js?v=20261125-family1','data.js?v=20261125-family1','learning.js?v=20261125-family1','app.js?v=20261125-family1','favicon.svg','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/maskable-512.png','icons/apple-touch-icon.png'].map(p=>new URL(p,BASE).href);
+const FILES=['./','index.html','styles.css?v=20261125-ra-15b30ea2d46b','site-links.js?v=20261125-ra-15b30ea2d46b','data.js?v=20261125-ra-15b30ea2d46b','learning.js?v=20261125-ra-15b30ea2d46b','app.js?v=20261125-ra-15b30ea2d46b','favicon.svg','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/maskable-512.png','icons/apple-touch-icon.png'].map(p=>new URL(p,BASE).href);
 const INDEX=new URL('index.html',BASE).href;
 const STATIC=new Set(FILES);
 const FRESH=new Set(['data.js','site-links.js'].map(p=>new URL(p,BASE).pathname));
