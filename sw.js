@@ -1,5 +1,5 @@
 'use strict';
-const NAME='wmu-site-atlas-15b30ea2d46b';
+const NAME='wmu-site-atlas-15b30ea2d46b-rootfix20261127';
 const PREFIX='wmu-site-atlas-';
 const BASE=new URL(self.registration.scope);
 const FILES=['./','index.html','styles.css?v=20261125-ra-15b30ea2d46b','site-links.js?v=20261125-ra-15b30ea2d46b','data.js?v=20261125-ra-15b30ea2d46b','learning.js?v=20261125-ra-15b30ea2d46b','app.js?v=20261125-ra-15b30ea2d46b','favicon.svg','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/maskable-512.png','icons/apple-touch-icon.png'].map(p=>new URL(p,BASE).href);
